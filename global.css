@@ -1,3 +1,172 @@
+:root{
+/* global.css */
+:root {
+  /* ==========================================================================
+     PALETA DE CORES (Material 3 Theme Style)
+     ========================================================================== */
+  --surface: #f8f9ff;
+  --surface-dim: #d0dbed;
+  --surface-bright: #f8f9ff;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #eff4ff;
+  --surface-container: #e6eeff;
+  --surface-container-high: #dee9fc;
+  --surface-container-highest: #d9e3f6;
+  --on-surface: #121c2a;
+  --on-surface-variant: #3f4945;
+  --inverse-surface: #27313f;
+  --inverse-on-surface: #eaf1ff;
+  --outline: #6f7975;
+  --outline-variant: #bec9c4;
+  --surface-tint: #176a58;
+  
+  --primary: #005645;
+  --on-primary: #ffffff;
+  --primary-container: #1e6f5c;
+  --on-primary-container: #a2efd7;
+  --inverse-primary: #89d5be;
+  
+  --secondary: #99452c;
+  --on-secondary: #ffffff;
+  --secondary-container: #ff9475;
+  --on-secondary-container: #762b14;
+  
+  --tertiary: #00563e;
+  --on-tertiary: #ffffff;
+  --tertiary-container: #007153;
+  --on-tertiary-container: #8df3ca;
+  
+  --error: #ba1a1a;
+  --on-error: #ffffff;
+  --error-container: #ffdad6;
+  --on-error-container: #93000a;
+  
+  --primary-fixed: #a5f2d9;
+  --primary-fixed-dim: #89d5be;
+  --on-primary-fixed: #002019;
+  --on-primary-fixed-variant: #005141;
+  
+  --secondary-fixed: #ffdbd1;
+  --secondary-fixed-dim: #ffb5a0;
+  --on-secondary-fixed: #3b0900;
+  --on-secondary-fixed-variant: #7b2e17;
+  
+  --tertiary-fixed: #90f6cc;
+  --tertiary-fixed-dim: #73d9b1;
+  --on-tertiary-fixed: #002116;
+  --on-tertiary-fixed-variant: #00513b;
+  
+  --background: #f8f9ff;
+  --on-background: #121c2a;
+  --surface-variant: #d9e3f6;
+
+  /* ==========================================================================
+     BORDAS (Border Radius)
+     ========================================================================== */
+  --radius-sm: 0.25rem;
+  --radius-default: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.5rem;
+  --radius-full: 9999px;
+
+  /* ==========================================================================
+     ESPAÇAMENTO & LAYOUT (Spacing)
+     ========================================================================== */
+  --space-xxs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+  
+  --gutter-mobile: 1rem;
+  --gutter-desktop: 1.5rem;
+  --container-max: 75rem;
+
+  /* ==========================================================================
+     FONT FAMILIES
+     ========================================================================== */
+  --font-display: 'Plus Jakarta Sans', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  /* ==========================================================================
+     TIPOGRAFIA (Escala hierárquica)
+     ========================================================================== */
+  /* Display / Título 1 */
+  --text-d1-size: 48px;
+  --text-d1-weight: 700;
+  --text-d1-line-height: 56px;
+  --text-d1-letter-spacing: -0.02em;
+
+  /* Display / Título 2 */
+  --text-d2-size: 36px;
+  --text-d2-weight: 700;
+  --text-d2-line-height: 44px;
+  --text-d2-letter-spacing: -0.015em;
+
+  /* Heading / Título 3 */
+  --text-h3-size: 32px;
+  --text-h3-weight: 700;
+  --text-h3-line-height: 40px;
+  --text-h3-letter-spacing: -0.01em;
+
+  /* Heading / Título 4 */
+  --text-h4-size: 26px;
+  --text-h4-weight: 700;
+  --text-h4-line-height: 34px;
+  --text-h4-letter-spacing: -0.01em;
+
+  /* Heading / Título 5 */
+  --text-h5-size: 24px;
+  --text-h5-weight: 600;
+  --text-h5-line-height: 32px;
+  --text-h5-letter-spacing: -0.005em;
+
+  /* Heading / Título 6 */
+  --text-h6-size: 20px;
+  --text-h6-weight: 600;
+  --text-h6-line-height: 28px;
+
+  /* Body Large */
+  --text-body-lg-size: 18px;
+  --text-body-lg-weight: 400;
+  --text-body-lg-line-height: 28px;
+
+  /* Body Medium (Padrão) */
+  --text-body-md-size: 16px;
+  --text-body-md-weight: 400;
+  --text-body-md-line-height: 24px;
+
+  /* Body Small */
+  --text-body-sm-size: 14px;
+  --text-body-sm-weight: 400;
+  --text-body-sm-line-height: 20px;
+
+  /* UI / Button / Bold Label */
+  --text-ui-md-size: 14px;
+  --text-ui-md-weight: 600;
+  --text-ui-md-line-height: 20px;
+  --text-ui-md-letter-spacing: 0.01em;
+
+  /* UI / Small Label */
+  --text-ui-sm-size: 12px;
+  --text-ui-sm-weight: 600;
+  --text-ui-sm-line-height: 16px;
+  --text-ui-sm-letter-spacing: 0.02em;
+
+  /* Caption / Micro Text */
+  --text-caption-size: 11px;
+  --text-caption-weight: 500;
+  --text-caption-line-height: 14px;
+  --text-caption-letter-spacing: 0.03em;
+}
+
+
+}
+
 *{
     margin: 0;
     padding: 0;
