@@ -375,3 +375,40 @@ footer > div:last-child {
   flex-wrap: wrap;
   gap: 10px;
 }
+
+.footer-apoio {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #d9e3f6;
+  margin-bottom: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.logo-fipp-footer {
+  width: 44px;
+  height: auto;
+  max-height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.footer-apoio-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.footer-apoio-texto strong {
+  color: #005645;
+  font-size: 13px;
+}
+
+.footer-apoio-texto span {
+  font-size: 11px;
+  color: #3f4945;
+  line-height: 1.3;
+}
