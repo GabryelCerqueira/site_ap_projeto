@@ -384,3 +384,66 @@ main {
   color: #ffffff;
   text-decoration: none;
 }
+
+/* ========================================================
+   RESPONSIVIDADE (QUERO ADOTAR / INTENÇÃO DE ADOÇÃO)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  .hero-intencao,
+  .ficha-animal-destaque,
+  .formulario-triagem {
+    padding: 20px 16px;
+    margin-bottom: 25px;
+  }
+
+  .ficha-animal-destaque > article {
+    flex-direction: column;
+  }
+
+  .ficha-animal-destaque figure,
+  .ficha-animal-destaque article > div {
+    width: 100%;
+    flex: 1 1 100%;
+  }
+
+  .ficha-animal-destaque figure img {
+    max-height: 240px;
+  }
+
+  .formulario-triagem fieldset {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .formulario-triagem form > div:last-child {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .formulario-triagem button[type="submit"],
+  .formulario-triagem button[type="reset"] {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0 12px;
+  }
+
+  .ficha-animal-destaque article > div > div:last-child {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .ficha-animal-destaque article > div > div:last-child a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .outras-formas-apoiar > div {
+    grid-template-columns: 1fr;
+  }
+}

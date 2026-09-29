@@ -258,6 +258,7 @@ input:focus, select:focus, textarea:focus {
 
 .tabela-container {
   overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
   margin: 20px 0;
   border: 1px solid #d9e3f6;
   border-radius: 12px;
@@ -411,4 +412,115 @@ footer > div:last-child {
   font-size: 11px;
   color: #3f4945;
   line-height: 1.3;
+}
+
+/* ========================================================
+   RESPONSIVIDADE GERAL (TABLETS E CELULARES)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  /* Cabeçalho e navegação mobile */
+  body > header nav, 
+  body > header .menu, 
+  .navegacao {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+  }
+
+  body > header ul, 
+  body > header ol, 
+  .menu-lista {
+    justify-content: center;
+    gap: 6px 8px;
+    width: 100%;
+  }
+
+  body > header ul li a, 
+  body > header ol li a, 
+  .menu-item {
+    font-size: 13px;
+    padding: 6px 10px;
+    text-align: center;
+  }
+
+  body > header nav > a:last-child, 
+  .botao-destaque {
+    width: 100%;
+    text-align: center;
+    margin-top: 4px;
+  }
+
+  /* Rodapé mobile */
+  footer {
+    padding: 30px 16px 20px;
+    margin-top: 40px;
+  }
+
+  footer > div:first-child {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  footer > div > div {
+    min-width: 100%;
+  }
+
+  footer > div:last-child {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Ajustes para telas pequenas (smartphones) */
+  .aviso-topo, 
+  .racaoinicio, 
+  body > header > div:first-child {
+    font-size: 11px;
+    padding: 6px 10px;
+    line-height: 1.3;
+  }
+
+  body > header ul, 
+  body > header ol, 
+  .menu-lista {
+    gap: 4px;
+  }
+
+  body > header ul li a, 
+  body > header ol li a, 
+  .menu-item {
+    font-size: 12px;
+    padding: 5px 8px;
+  }
+
+  .container {
+    padding: 0 12px;
+  }
+
+  .card {
+    padding: 16px;
+  }
+
+  .grade {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .campo input, 
+  .campo select, 
+  .campo textarea {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+
+  .footer-apoio {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
 }

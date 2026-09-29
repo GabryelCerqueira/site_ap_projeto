@@ -267,3 +267,64 @@ main {
 .distribuicao-operacional caption {
   display: none;
 }
+
+/* ========================================================
+   RESPONSIVIDADE (REGISTRO DE RESGATES E TRIAGEM)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 16px;
+  }
+
+  .hero-registro,
+  .tabela-controle-animais,
+  .formulario-admissao-resgate,
+  .modulo-vacinacao-lotes,
+  .distribuicao-operacional {
+    padding: 20px 16px;
+    margin-bottom: 25px;
+  }
+
+  .tabela-controle-animais fieldset {
+    grid-template-columns: 1fr;
+  }
+
+  .tabela-controle-animais fieldset button {
+    width: 100%;
+  }
+
+  .formulario-admissao-resgate fieldset {
+    grid-template-columns: 1fr;
+    padding: 16px;
+  }
+
+  .formulario-admissao-resgate form > div:last-child {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .formulario-admissao-resgate button[type="submit"],
+  .formulario-admissao-resgate button[type="reset"] {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0 12px;
+  }
+
+  .hero-registro > div {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-registro h1 {
+    font-size: 24px;
+  }
+
+  .formulario-admissao-resgate > h2 {
+    font-size: 22px;
+  }
+}

@@ -486,3 +486,101 @@ main {
   justify-content: center;
   gap: 15px;
 }
+
+/* ========================================================
+   RESPONSIVIDADE (HOME / PRINCIPAL)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  .rede-soli {
+    flex-direction: column;
+    margin: 25px auto;
+    gap: 25px;
+  }
+
+  .rede-soli-texto,
+  .rede-soli-foto {
+    flex: 1 1 100%;
+    width: 100%;
+  }
+
+  .rede-soli-foto img {
+    max-height: 300px;
+  }
+
+  .botoes-hero {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .botoes-hero a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .banner-emergencia {
+    flex-direction: column;
+    text-align: center;
+    gap: 16px;
+  }
+
+  .banner-emergencia a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .botoes-chamada {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .botoes-chamada a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .grade-impacto,
+  .grade-animais,
+  .grade-passos,
+  .grade-depoimentos {
+    grid-template-columns: 1fr;
+  }
+
+  .rede-soli-texto h1 {
+    font-size: 26px;
+  }
+
+  .impacto {
+    padding: 35px 16px;
+    margin-top: 25px;
+  }
+
+  .impacto > h1 {
+    margin-bottom: 25px;
+  }
+
+  .animaiswait,
+  .como-funciona,
+  .depoimentos {
+    margin: 35px auto;
+  }
+
+  .botoes-filtro {
+    gap: 6px;
+    margin-bottom: 25px;
+  }
+
+  .botoes-filtro button {
+    padding: 6px 14px;
+    font-size: 13px;
+  }
+
+  .card-impacto,
+  .card-passo,
+  .card-depoimento {
+    padding: 18px 16px;
+  }
+}
+

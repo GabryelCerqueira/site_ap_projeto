@@ -282,3 +282,41 @@ main {
   color: #3f4945;
   line-height: 1.5;
 }
+
+/* ========================================================
+   RESPONSIVIDADE (EQUIPE E MATRIZ DE ATRIBUIÇÕES)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 16px;
+  }
+
+  .hero-equipe,
+  .matriz-atribuicoes {
+    padding: 20px 16px;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0 12px;
+  }
+
+  .hero-equipe > div,
+  .perfis-integrantes > div,
+  .padroes-acessibilidade > div {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-equipe h1 {
+    font-size: 24px;
+  }
+
+  .perfis-integrantes > h2,
+  .matriz-atribuicoes > h2,
+  .padroes-acessibilidade > h2 {
+    font-size: 22px;
+  }
+}

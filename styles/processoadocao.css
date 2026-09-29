@@ -267,3 +267,54 @@ main {
   background-color: #dee9fc;
   text-decoration: none;
 }
+
+/* ========================================================
+   RESPONSIVIDADE (PROCESSO DE ADOÇÃO CONSCIENTE)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  main {
+    padding: 0 16px;
+  }
+
+  .hero-processo,
+  .etapas-fluxo article,
+  .requisitos-comparativos,
+  .termo-responsabilidade article {
+    padding: 20px 16px;
+    margin-bottom: 25px;
+  }
+
+  .etapas-fluxo article ul {
+    grid-template-columns: 1fr;
+  }
+
+  .termo-responsabilidade > div:first-of-type {
+    grid-template-columns: 1fr;
+  }
+
+  .termo-responsabilidade > div:last-of-type {
+    padding: 25px 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0 12px;
+  }
+
+  .hero-processo > div {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-processo h1 {
+    font-size: 24px;
+  }
+
+  .termo-responsabilidade > div:last-of-type a {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    text-align: center;
+  }
+}

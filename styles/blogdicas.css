@@ -477,3 +477,63 @@ main {
 .newsletter-blog form button:hover {
   background-color: #762b14;
 }
+
+/* ========================================================
+   RESPONSIVIDADE (BLOG E DICAS)
+   ======================================================== */
+
+@media (max-width: 768px) {
+  .hero-blog,
+  .artigo-destaque article,
+  .protocolos-quarentena,
+  .newsletter-blog {
+    padding: 20px 16px;
+    margin-bottom: 25px;
+  }
+
+  .hero-blog form {
+    flex-direction: column;
+  }
+
+  .hero-blog form button {
+    width: 100%;
+  }
+
+  .artigo-destaque ul {
+    grid-template-columns: 1fr;
+  }
+
+  .artigo-destaque a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .newsletter-blog form {
+    max-width: 100%;
+  }
+
+  .newsletter-blog form button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  main {
+    padding: 0 12px;
+  }
+
+  .lista-artigos > div,
+  .protocolos-quarentena ol,
+  .downloads-materiais > div {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-blog nav ul {
+    gap: 6px;
+  }
+
+  .hero-blog nav a {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
