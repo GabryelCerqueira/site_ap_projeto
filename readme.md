@@ -48,3 +48,5 @@ O sistema **Patas & Vidas** é uma solução web voltada para conectar ONGs e pr
 2. **Vitrine & Ficha do Animal (Adoção):** Filtros por espécie (cão/gato), porte, idade; ficha detalhada com histórico, vacinas e formulário de interesse.
 3. **Painel de Controle de Resgates & Vacinação:** Tabela de acompanhamento de resgates, datas, responsáveis, status e carteira de vacinação organizada.
 4. **Educação, FAQ & Portfólio:** Seção de dúvidas frequentes sanando questões jurídicas/médicas, artigos educativos e apresentação dos integrantes do projeto.
+
+<!-- Feito sob medidas pro Gabryel Gomes Cerqueira em busca de uma base para a criação do pdf que tal seria o Briefing, quem estiver lendo isso, muito obrigado por saber que nosso trabalho não foi em vão -->

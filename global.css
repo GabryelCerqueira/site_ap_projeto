@@ -452,7 +452,7 @@ footer > div:last-child {
     margin-top: 4px;
   }
 
-  /* Rodapé mobile */
+  /* Rodapé mobile com base na melhor forma de responsividade (Gabryel Gomes Cerqueira e Equipe) */
   footer {
     padding: 30px 16px 20px;
     margin-top: 40px;

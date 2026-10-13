@@ -47,12 +47,6 @@ A plataforma atua em duas frentes integradas:
   - Busca por palavras-chave e sanfona (accordion) de dúvidas comuns.
   - Seção de emergência (O que fazer ao achar um animal de rua).
 
-🔐 Painel Administrativo, Clínico & Triagem (Área Restrita)
-
-* Registro de Resgates & Prontuário Veterinário Integrado:
-  - Dashboard analítico (Total em quarentena, tratados, aptos para adoção).
-  - Tabela de controle de animais com filtros por status e local.
-
 * Módulo de Vacinação e Profilaxia:
   - Controle de lotes, datas de aplicação e próximas doses.
 
