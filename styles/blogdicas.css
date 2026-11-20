@@ -478,10 +478,6 @@ main {
   background-color: #762b14;
 }
 
-/* ========================================================
-   RESPONSIVIDADE (BLOG E DICAS)
-   ======================================================== */
-
 @media (max-width: 768px) {
   .hero-blog,
   .artigo-destaque article,

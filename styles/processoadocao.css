@@ -268,10 +268,6 @@ main {
   text-decoration: none;
 }
 
-/* ========================================================
-   RESPONSIVIDADE (PROCESSO DE ADOÇÃO CONSCIENTE)
-   ======================================================== */
-
 @media (max-width: 768px) {
   main {
     padding: 0 16px;

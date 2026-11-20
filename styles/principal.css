@@ -487,10 +487,6 @@ main {
   gap: 15px;
 }
 
-/* ========================================================
-   RESPONSIVIDADE (HOME / PRINCIPAL)
-   ======================================================== */
-
 @media (max-width: 768px) {
   .rede-soli {
     flex-direction: column;
@@ -583,4 +579,3 @@ main {
     padding: 18px 16px;
   }
 }
-

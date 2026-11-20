@@ -49,4 +49,52 @@ O sistema **Patas & Vidas** é uma solução web voltada para conectar ONGs e pr
 3. **Painel de Controle de Resgates & Vacinação:** Tabela de acompanhamento de resgates, datas, responsáveis, status e carteira de vacinação organizada.
 4. **Educação, FAQ & Portfólio:** Seção de dúvidas frequentes sanando questões jurídicas/médicas, artigos educativos e apresentação dos integrantes do projeto.
 
-<!-- Feito sob medidas pro Gabryel Gomes Cerqueira em busca de uma base para a criação do pdf que tal seria o Briefing, quem estiver lendo isso, muito obrigado por saber que nosso trabalho não foi em vão -->
+---
+
+### 4. Etapa 2 - Módulos Dinâmicos (Back-end Flask + SQLite3 + Front-end Fetch API)
+
+#### 4.1 Estrutura do Projeto em 2 Pastas
+```text
+├── backend/
+│   ├── BancodeDadosGrupo6AlexsanderPedroHenriqueMuriloLemosGabryelCerqueira.db  # Banco de Dados SQLite3
+│   ├── modulos.py   # Módulo com funções SQLite (conectar, criar, inserir, apagar, consultar, alterar)
+│   ├── server.py    # Servidor Flask com CORS e API REST
+│   └── main.py      # Interface Console para testes rápidos dos módulos
+│
+└── frontend/
+    ├── pages/
+    │   └── registro.html  # Interface com tabela dinâmica e formulário conectado via Fetch API
+    ├── js/
+    │   └── registro.js    # Fetch API: GET, POST, DELETE, PUT
+    ├── styles/            # Folhas de estilo CSS
+    ├── assets/            # Imagens e ícones
+    ├── global.css
+    ├── index.html
+    └── principal.html
+```
+
+#### 4.2 Como Executar o Back-end
+1. **Instalar dependências (caso necessário):**
+   ```bash
+   pip install Flask flask_cors
+   ```
+2. **Iniciar o servidor da API Flask:**
+   ```bash
+   python backend/server.py
+   ```
+   *O servidor iniciará em `http://127.0.0.1:8000` com suporte total a CORS.*
+
+3. **(Opcional) Executar a interface console:**
+   ```bash
+   python backend/main.py
+   ```
+
+#### 4.3 Como Utilizar o Front-end
+1. Com o servidor Flask rodando, abra o arquivo `frontend/pages/registro.html` no navegador (ou via extensão Live Server do VS Code).
+2. O sistema exibe o status de conexão no topo da tabela (`Flask Online`).
+3. **Inclusão:** Preencha o formulário e clique em *"Cadastrar Resgate & Abrir Prontuário"*; o registro será enviado via `POST` e gravado no banco SQLite.
+4. **Exibição:** A tabela carrega dinamicamente todos os registros do SQLite via `GET /resgates`.
+5. **Exclusão:** Clique no botão vermelho *"Excluir"* em qualquer linha para remover o registro do banco SQLite via `DELETE /resgates/<id>`.
+6. **Alteração (Opcional):** Clique em *"Editar"* em qualquer linha para carregar os dados no formulário e atualizar via `PUT /resgates/<id>`.
+
+---

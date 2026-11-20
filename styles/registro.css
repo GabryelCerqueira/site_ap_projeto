@@ -141,6 +141,16 @@ main {
   text-decoration: none;
 }
 
+.btn-acao-editar:hover {
+  filter: brightness(0.9);
+  transform: translateY(-1px);
+}
+
+.btn-acao-excluir:hover {
+  filter: brightness(0.85);
+  transform: translateY(-1px);
+}
+
 .formulario-admissao-resgate {
   background-color: #ffffff;
   border: 1px solid #d9e3f6;
@@ -267,10 +277,6 @@ main {
 .distribuicao-operacional caption {
   display: none;
 }
-
-/* ========================================================
-   RESPONSIVIDADE (REGISTRO DE RESGATES E TRIAGEM)
-   ======================================================== */
 
 @media (max-width: 768px) {
   main {

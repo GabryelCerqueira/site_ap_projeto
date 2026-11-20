@@ -223,7 +223,7 @@ The design system employs a **Rounded** shape model (`roundedness: 2`), balancin
 - **Ghost / Outlined:** Transparent fill with a 1.5px border in `#1E6F5C`, colored text in `#1E6F5C`. Hover introduces a 10% tint background (`#F0F7F4`).
 
 ### Chips & Badges
-- **Status Pills:** Fully rounded (9999px) with 4px 12px padding (`label-md`). 
+- **Status Pills:** Fully rounded (9999px) with 4px 12px padding (`label-md`).
   - *Castrado/Vacinado (Positive):* Background `#EAF5F1`, text `#1E6F5C`.
   - *Tratamento Urgente (Urgent):* Background `#FDF0EC`, text `#D05C3D`.
   - *Porte/Idade (Neutral):* Background `#F3F4F6`, text `#1F2937`.

@@ -385,10 +385,6 @@ main {
   text-decoration: none;
 }
 
-/* ========================================================
-   RESPONSIVIDADE (QUERO ADOTAR / INTENÇÃO DE ADOÇÃO)
-   ======================================================== */
-
 @media (max-width: 768px) {
   .hero-intencao,
   .ficha-animal-destaque,

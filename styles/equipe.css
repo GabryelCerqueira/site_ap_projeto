@@ -283,10 +283,6 @@ main {
   line-height: 1.5;
 }
 
-/* ========================================================
-   RESPONSIVIDADE (EQUIPE E MATRIZ DE ATRIBUIÇÕES)
-   ======================================================== */
-
 @media (max-width: 768px) {
   main {
     padding: 0 16px;

@@ -66,7 +66,7 @@ hr{
 }
 
 .centra{
-    text-align: center; 
+    text-align: center;
     font-weight: 600;
     list-style: upper-roman;
     list-style-position: inside;
@@ -117,7 +117,7 @@ img:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .img-games img{

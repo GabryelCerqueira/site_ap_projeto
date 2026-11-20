@@ -22,7 +22,7 @@ body {
     height: 180px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: center 35%; /* sem isso cortava meu cabelo */
+    object-position: center 35%;
     border: 3px solid #3b82f6;
     margin-bottom: 20px;
 }

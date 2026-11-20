@@ -294,10 +294,6 @@ details li {
   margin-top: 10px;
 }
 
-/* ========================================================
-   RESPONSIVIDADE (FAQ / CENTRAL DE AJUDA)
-   ======================================================== */
-
 @media (max-width: 768px) {
   .hero-faq,
   .secao-emergencia,
